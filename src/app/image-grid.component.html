@@ -1,0 +1,3 @@
+<div *ngFor="let image of gridImages" class="grid_container">
+    <grid-image *ngFor="let a of gridImagesCount; let i=index" class="grid_item grid_item_{{i + 1}}" [image]="image"></grid-image>
+</div>

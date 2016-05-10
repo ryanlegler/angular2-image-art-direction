@@ -1,0 +1,2 @@
+<img src="app/{{image.path}}"  (click)="checkCoordinates($event, image.id);" alt="">
+<div class="image_focus_point" [ngStyle]="{'left': image.imageOffsetX + '%', 'top': image.imageOffsetY + '%'}"></div>
